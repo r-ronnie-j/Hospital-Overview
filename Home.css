@@ -1,0 +1,117 @@
+.body{
+    background-color:rgb(50,50,50);
+    font-family: 'Open Sans', sans-serif;
+    color:snow;
+}
+.nav{
+    display: flex;
+    flex-direction:column;
+    background-color:rgb(43, 32, 32);
+}
+nav{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px;
+}
+.logoMain{
+    text-align:center;
+    margin:7vh;
+}
+.nav-left{
+    display:flex;
+    align-items:center;
+}
+.nav-left *{
+    margin: 5px 6px;
+    color:rgb(224, 254, 255);
+    cursor:pointer;
+}
+.nav-right{
+    display:flex;
+}
+.nav-right> *{
+    margin:5px 6px;
+}
+.login,.signup{
+   display:flex;
+   background-color:rgb(13,111,253);
+   border-radius: 16px;
+   align-items: center;
+   padding:0 5px;
+   height:30px;
+}
+.login span,.signup span{
+    margin-right:4px;
+    text-align:center;
+    width:60px;
+}
+.login img,.signup img{
+    height:25px;
+}
+.link-hospital{
+   display:flex;
+   flex-wrap:wrap;
+   flex-direction:row;
+}
+.link-hospital a {
+    display:block;
+    text-decoration: none;
+    color:rgb(143, 216, 245) !important;
+    height:20px;
+    margin:5px 8px;
+}
+.display-none{
+    display:none;
+}
+.carosal-container{
+    display:flex;
+    justify-content: center;
+    padding:2vh 0 5vh 0
+}
+.carosal-container>div{
+    width:95vw;
+    background-color:rgb(10, 10, 14);
+    border-radius:10px;
+}
+.carosal{
+    display:flex;
+    justify-content:center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    min-height:180px;
+    padding:20px 110px;
+}
+.palmplate{
+    display:inline-block;
+    height:180px;
+    margin:20px 40px;
+    width:180px;
+    border:1px solid rgb(230, 135, 135);
+    background-color:rgb(44, 41, 30);
+    border-radius:5px;
+
+}
+.hospital-collection{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.pagelet{
+    display:flex;
+    flex-direction:column;
+    width:200px;
+    height:220px;
+    margin:40px;
+    border:solid 2px white;
+    background-color:rgb(44, 41, 30);
+    border-radius: 7px;
+}
+.pagelet-img{
+    background-color:cornsilk;
+    height:60%;
+    margin:3px;
+}
