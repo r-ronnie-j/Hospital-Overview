@@ -1,0 +1,275 @@
+.body{
+    background-color:rgb(50,50,50);
+    font-family: 'Open Sans', sans-serif;
+    color:snow;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding: 2vh 1vw;
+    align-items:center;
+    background-color:rgb(68, 68, 68);
+    border-radius:6px;
+}
+.Hospital{
+    display:flex;
+    flex-direction:column;
+    width:240px;
+    align-items:center;
+    color:rgb(138, 255, 243)
+}
+.Hospital-name{
+    font-size:25px;
+}
+.Hospital-address{
+    font-size:12px;
+}
+.login{
+    display:flex;
+    background-color:rgb(75, 117, 253);
+    border-radius: 16px;
+    align-items: center;
+    padding:0 5px;
+    height:30px;
+    float:right;
+    cursor:pointer;
+ }
+ .login span{
+     margin-right:4px;
+     text-align:center;
+     width:60px;
+ }
+ .login img{
+     height:25px;
+ }
+ .function-bar{
+     display:flex;
+     flex-direction:column;
+     align-items:center;
+     flex-wrap:wrap-reverse;
+     justify-content:space-between;
+     margin:10vh 2vw;
+ }
+ .function-bar>div{
+    margin:2vh 0;
+}
+ .search-bar{
+     display:flex;
+     border:solid 1px white;
+     align-items:center;
+     border-radius:3px;
+ }
+ .search-bar input,.search-bar button,.search-bar select{
+     border:none;
+     outline:none;
+ }
+ .search-bar select{
+     height:30px;
+     width:7vw;
+     min-width:100px;
+     text-align:center;
+     background-color:rgb(224, 253, 197);
+     border-top-left-radius:3px;
+     border-bottom-left-radius:3px;
+     color:black;
+     font-size:14px;
+     font-weight:600;
+ }
+ .search-bar button{
+    height:30px;
+    width:5vw;
+    min-width:80px;
+    text-align:center;
+    cursor:pointer;
+    background-color:rgb(218, 253, 197);
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+    color:black;
+    font-size:15px;
+    font-weight:600;
+}
+.search-bar input{
+    height:28px;
+    width:20vw;
+    min-width:150px;
+    padding-left: 10px;
+    font-size:15px;
+}
+.button{
+    border-radius:15px;
+    background-color:rgb(97, 197, 255);
+    padding-top:2px;
+    color:white;
+    width:100px;
+    height: 30px;
+    font-size:17px;
+    cursor:pointer;
+}
+.report-id{
+    color:rgb(107, 250, 250);
+}
+.for-New{
+    display: flex;
+    flex-direction:column;
+    background-color:rgb(87, 87, 87);
+    border-radius: 10px;
+    border-top:solid 1px white;
+    border-bottom:solid 1px white;
+}
+.for-New>div{
+    display: flex;
+    flex-direction:column;
+    margin-top:10px;
+    padding:10px;
+}
+.for-New>div>div{
+    display:flex;
+    margin:5px;
+}
+.for-New>div>div>div{
+    flex:1 1 120px;
+    display:flex;
+}
+.for-New input {
+    background-color:rgba(250, 250, 249, 0);
+    border:none;
+    outline:none;
+    border-bottom:1px solid white;
+    margin-left:2vw;
+    width:13vw;
+    min-width:100px;
+    color:white;
+}
+form{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap-reverse;
+    align-items:center;
+    padding:20px;
+    background-color: rgb(22, 21, 21);
+    margin:10px;
+    border-radius:10px;
+}
+.form-info{
+    display:flex;
+    flex:1 1 240px;
+    flex-direction:column;
+    margin:5px 10px;
+}
+.form-info>div{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.form-info>div>div{
+    flex:1 1 120px;
+    margin:10px 0;
+    min-width:250px;
+}
+.form-info>div>div>input{
+    background-color:rgba(250, 250, 249, 0);
+    border:none;
+    outline:none;
+    border-bottom:1px solid white;
+    margin-left:2vw;
+    width:13vw;
+    min-width:100px;
+    color:white;
+}
+.upload-photo{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    height:250px;
+    width:250px;
+    background-color:white;
+    margin:10px;
+    padding:5px;
+    border-radius:4px;
+}
+.photo-bttn{
+    margin-top:10px;
+}
+.upload-photo>img{
+    flex:1 1 120px;
+}
+.follow-up{
+    display:flex;
+    flex-direction:column;
+    margin-left:10px;
+}
+.follow-up-container{
+    background-color:rgb(39, 41, 37);
+    margin:0 2vw;
+    border-radius: 5px;
+}
+.follow-up{
+    display:flex !important;
+    flex-direction:row !important;
+}
+.follow-up>div{
+    flex: 1 1 50% !important;
+    text-align: center ;
+}
+.follow-up>div>span{
+    margin:auto;
+}
+.right{
+    display:flex !important;
+    flex-direction:row !important ;
+    justify-content: space-between !important;
+}
+.red{
+    background-color:rgb(185, 81, 81);
+}
+.text-center{
+    text-align: center;
+}
+.text-center>*{
+    display:inline-block;
+}
+@media only screen and (max-width : 280px){
+    .search-bar{
+        display:flex;
+        border:none;
+        align-items:center;
+        border-radius:3px;
+    }
+    .search-bar input,.search-bar button,.search-bar select{
+        border:none;
+        outline:none;
+    }
+    .search-bar select{
+        height:20px;
+        width:7vw;
+        min-width:60px;
+        text-align:center;
+        background-color:rgb(253, 197, 223);
+        border-top-left-radius:3px;
+        border-bottom-left-radius:3px;
+        color:black;
+        font-size:9px;
+
+    }
+    .search-bar button{
+       height:20px;
+       width:5vw;
+       min-width:50px;
+       text-align:center;
+       cursor:pointer;
+       background-color:rgb(253, 197, 223);
+       border-top-right-radius:4px;
+       border-bottom-right-radius:4px;
+       color:black;
+       font-size:9px;
+       font-weight:600;
+   }
+   .search-bar input{
+       height:18px;
+       width:20vw;
+       min-width:100px;
+       padding-left: 5px;
+       font-size:9px;
+   }
+}

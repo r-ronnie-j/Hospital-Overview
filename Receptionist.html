@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receptionist form page</title>
+    <link href="Receptionist.css" rel="stylesheet" type="text/css">
+    <script src="Receptionist.js" type="module"></script>
+</head>
+
+<body class="body">
+    <nav>
+        <div class="Hospital">
+            <div class="Hospital-name">Hospital Name</div>
+            <div class="Hospital-address">Hospital Address</div>
+        </div>
+        <span class="login"><img src="Images/login1.png"><span>Log Out</span></span>
+    </nav>
+    <div class="function-bar">
+        <div class="search-bar">
+            <div>
+                <select>
+                    <option>Patient Id</option>
+                    <option>Doctor Id</option>
+                </select>
+            </div>
+            <div>
+                <input type="text">
+            </div>
+            <div>
+                <button>Search</button>
+            </div>
+        </div>
+        <div>
+            <button class="button">Add new</button>
+        </div>
+    </div>
+    <div class="for-New">
+        <form>
+            <div class="form-info">
+                <div>
+                    <div><label class='report-id' for="name">Patient's name :</label><input type="text"></div>
+                    <div><label class="report-id" for="name">Contact number :</label><input type="text"></div>
+                </div>
+                <div>
+                    <div><label for="name" class="report-id">Current address :</label><input type="text"></div>
+                    <div><label for="name" class="report-id">Father's name :</label><input type="text"></div>
+                </div>
+                <div>
+                    <div><label for="name" class='report-id'>Mother's name :</label><input type="text"></div>
+                    <div><label class="report-id" for="name">Spouse's name :</label><input type="text"></div>
+                </div>
+                <div>
+                    <div><label for="name" class='report-id'>Age :</label><input type="text"></div>
+                    <div><label class="report-id" for="name">Gender :</label><input type="text"></div>
+                </div>
+            </div>
+            <div class="upload-photo">
+                <img id="uploaded-photo" width="240px" height="200px">
+                <input class="photo-bttn" type="file" accept="image/*" id="upload-photo">
+            </div>
+        </form>
+        <div>
+            <div>
+                <div><label for="name" class='report-id'>Patient Id :</label><input type="text"></div>
+                <div><label class="report-id" for="name">check-up Id :</label><input type="text"></div>
+            </div>
+            <div>
+                <div><label for="name" class='report-id'>Doctor name :</label><input type="text"></div>
+                <div><label class="report-id" for="name">Doctor-Id :</label><input type="text"></div>
+            </div>
+            <div>
+                <div><label for="name" class='report-id'>Department Name :</label><input type="text"></div>
+                <div><label class="report-id" for="name">Room Number :</label><input type="text"></div>
+            </div>
+        </div>
+        <div class="text-center">
+            <h3 class="report-id">Follow up : </h3>
+        </div>
+        <div class="follow-up-container">
+            <div class='follow-up'>
+                <div class="report-id "><span>Follow Up date</span></div>
+                <div class="report-id"><span>Present</span></div>
+            </div>
+            <div class='follow-up'>
+                <div><span>2021-10-24</span></div>
+                <div><span>YES</span></div>
+            </div>
+            <div class='follow-up'>
+                <div><span>2021-11-12</span></div>
+                <div><span>NO</span></div>
+            </div>
+            <div class='follow-up'>
+                <div class="report-id "><span>Next Follow Up status</span></div>
+                <div class="report-id"><span><input type="checkbox"></span></div>
+            </div>
+            <div class='follow-up'>
+                <div class="report-id "><span>Next Follow Up date</span></div>
+                <div class="report-id"><span><input type="text"></span></div>
+            </div>
+        </div>
+        <div class="right">
+            <div>
+                <button class="button red">X</button>
+            </div>
+            <div>
+                <button class="button">Add</button>
+            </div>
+        </div>
+    </div>
+    <div class="for existing">
+
+    </div>
+</body>
+
+</html>
