@@ -134,11 +134,15 @@ nav{
     display:flex;
     flex-direction: column;
 }
+.report-id{
+    display:inline-block;
+    color:rgb(76, 216, 216);
+}
 .report-plate{
     display:flex;
     flex-direction:column;
     margin:1vw 1vh;
-    background-color:rgb(55, 59, 63);
+    background-color:rgb(33, 34, 34);
     border-radius:7px;
     padding:5px 10px;
     border-bottom:solid 1px snow;
@@ -146,96 +150,122 @@ nav{
 }
 .report-1{
     display:flex;
-    flex-direction:column;
-    margin:0.5vh 0.5vw;;
+    flex-direction:row;
+    flex-wrap:wrap-reverse;
+    justify-content: center;
+    align-items:center;
+    margin:0.5vh 0.5vw;
 }
 .report-1-1{
-    display:flex;
+    flex:1 1 250px;
+    display: flex;
+    flex-direction:column;
+    margin-left:1vw;
+}
+.report-1-1-1{
+    display: flex;
     flex-wrap:wrap;
+    min-width:450px;
 }
-.report-1-1>div{
-    flex: 1 1 50%;
-    min-width:250px;
-    margin-bottom:0.5vh;
+.report-1-1-1>div{
+    flex: 1 1 100px;
+    margin:3px 0;
+    min-width:225px;
 }
-.report-1-1>div>span{
-    padding:0 10px;
-    border-bottom: 1px solid rgb(245, 244, 244);
+.report-1-2{
+    background-color:snow;
+    padding:5px;
+    border-radius:5px;
 }
-.report-3,.report-4{
+.report-1-2>img{
+    width:200px;
+}
+.report-2{
     display:flex;
-    flex-direction:column;
-    width:100%;
-    background-color: rgb(49, 48, 47);
-    border-radius: 6px;
-    margin-bottom: 8px;
-}
-.none{
-    display: none;
-}
-.report-3>div>div,.report-4>div>div{
-    flex:1 1 120px;
-    text-align:center;
-    padding:5px 0;
-}
-.report-id{
-    display:inline-block;
-    color:rgb(76, 216, 216)
-}
-.medicine-manage{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-}
-.days{
-    width:10px;
-    height:10px;
-    padding:1px;
-    background-clip:padding-box;
-    margin:2px;
-}
-.days-selected{
-    background-color:cadetblue;
-}
-.days-unselected{
-    background-color:cornsilk;
-}
-.days-container{
-    display:flex;
-    margin:8px;
-}
-.report-3-medicine,.report-4-followup{
-    display:flex;
-    justify-content: center;
-}
-.report-3-medicine>div ,.report-4-followup>div{
-    flex:1 1 50%;
-}
 
-.green{
-    color:rgb(78, 235, 78)
 }
-.report-5{
-    width:90vw;
-    align-self:center;
+.report-margin{
+    margin: 10px 2vw;
+}
+.report-2{
+    display:flex;
+    flex-direction:column;
+}
+.report-2-1{
+    display:flex;
+}
+.report-2-1>div{
+    flex:1 1 85px;
     text-align:center;
-    border-top: 2px solid black;
-    padding:10px;
+    margin:4px 0;
 }
-textarea{
-    width:80vw;
-    height:9vh;
-    background-color:rgb(49, 48, 47);
-    color:white;
-    padding:0.5vh 1vw;
+.report-list{
+    display: flex;
+    flex-direction:column;
+    margin:1vh 1vw;
+}
+.report-list>div>textarea{
+    width:50vw;
+    height: 7vh;
     resize:none;
+    padding:10px;
+    border-radius:10px;
+    background-color:rgb(68, 68, 68);
+    color:white;
     border:none;
-    border-radius: 6px;
+    outline:none;
+}
+.report-list>ol>li{
+    display:flex;
+    justify-content: space-between;
+    margin:10px 0;
+    color:rgb(135, 255, 79);
+}
+.cancel{
+    color:rgb(252, 94, 94);
+    cursor: pointer;
+}
+.report-note{
+    display:flex;
+    flex-direction:column;
+    margin:15px;
+    background:rgba(82, 82, 82, 0.5);
+    padding:10px;
+    border-radius:12px;
+    margin-top:4vh;
+}
+.report-list-textArea{
+    display: flex;
+    justify-content: space-between;
+}
+.report-list-textArea>div{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    flex:1 1 120px;
+}
+.report-note>textarea{
+    resize:none;
+    margin-top:12px;
+    height:8vh;
+    width:80vw;
+    align-self:center;
+    border-radius:8px;
+    background-color:rgb(37, 37, 32);
+    padding:5px;
+    color:white;
+    border:none;
+    outline:none;
+}
+.margin-top{
+    margin-left:2vw;
 }
 button{
     border-radius:15px;
-    background-color:rgb(59, 234, 240);
-    color:white;
+    background-color:rgb(2, 151, 238);
+    margin-top:12px;
+    align-self:center;
+    color:rgb(245, 237, 237);
     width:75px;
     height: 28px;
     font-size:15px;
