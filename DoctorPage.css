@@ -29,6 +29,10 @@ nav{
     color:rgb(224, 254, 255);
     cursor:pointer;
 }
+a{
+    text-decoration:none;
+    color:white;
+}
 .nav-right{
     display:flex;
 }
