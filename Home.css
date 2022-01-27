@@ -1,123 +1,246 @@
-.body{
-    background-color:rgb(50,50,50);
+.body {
+    background-color: rgb(50, 50, 50);
     font-family: 'Open Sans', sans-serif;
-    color:snow;
+    color: snow;
 }
-.nav{
-    display: flex;
-    flex-direction:column;
-    background-color:rgb(43, 32, 32);
-}
-nav{
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    justify-content:space-between;
-    align-items:center;
-    padding:10px;
-}
-.logoMain{
-    text-align:center;
-    margin:7vh;
-}
-.nav-left{
-    display:flex;
-    align-items:center;
-}
-.nav-left *{
-    margin: 5px 6px;
-    color:rgb(224, 254, 255);
-    cursor:pointer;
-}
-.nav-right{
-    display:flex;
-}
-.nav-right> *{
-    margin:5px 6px;
-}
-.login,.signup{
-   display:flex;
-   background-color:rgb(13,111,253);
-   border-radius: 16px;
-   align-items: center;
-   padding:0 5px;
-   height:30px;
-}
-.login span,.signup span{
-    margin-right:4px;
-    text-align:center;
-    width:60px;
-}
-.login img,.signup img{
-    height:25px;
-}
-.link-hospital{
-   display:flex;
-   flex-wrap:wrap;
-   flex-direction:row;
-}
-.link-hospital a {
-    display:block;
-    text-decoration: none;
-    color:rgb(143, 216, 245) !important;
-    height:20px;
-    margin:5px 8px;
-}
-.display-none{
-    display:none;
-}
-.carosal-container{
-    display:flex;
-    justify-content: center;
-    padding:2vh 0 5vh 0
-}
-.carosal-container>div{
-    width:95vw;
-    background-color:rgb(10, 10, 14);
-    border-radius:10px;
-}
-.carosal{
-    display:flex;
-    justify-content:center;
-    flex-direction: row;
-    flex-wrap:wrap;
-    min-height:180px;
-    padding:20px 110px;
-}
-.palmplate{
-    display:inline-block;
-    height:180px;
-    margin:20px 40px;
-    width:180px;
-    border:1px solid rgb(230, 135, 135);
-    background-color:rgb(44, 41, 30);
-    border-radius:5px;
 
-}
-.hospital-collection{
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    flex-wrap:wrap;
-}
-.pagelet{
-    display:flex;
-    flex-direction:column;
-    width:250px;
-    height:270px;
-    margin:20px;
-    border:solid 2px white;
-    background-color:rgb(44, 41, 30);
-    border-radius: 7px;
-    padding:4px;
-}
-.pagelet-img{
-    background-color:cornsilk;
-    height:55%;
-    margin:3px;
-}
-.pagelet-desc{
-    margin-left:5px;
+.nav {
     display: flex;
     flex-direction: column;
+    background-color: rgb(43, 32, 32);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logoMain {
+    text-align: center;
+    margin: 7vh;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left * {
+    margin: 5px 6px;
+    color: rgb(224, 254, 255);
+    cursor: pointer;
+}
+
+.nav-right {
+    display: flex;
+}
+
+.nav-right>* {
+    margin: 5px 6px;
+}
+
+.login,
+.signup {
+    display: flex;
+    background-color: rgb(13, 111, 253);
+    border-radius: 16px;
+    align-items: center;
+    padding: 0 5px;
+    height: 30px;
+    cursor:pointer;
+}
+
+.login span,
+.signup span {
+    margin-right: 4px;
+    text-align: center;
+    width: 60px;
+}
+
+.login img,
+.signup img {
+    height: 25px;
+}
+
+.link-hospital {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.link-hospital a {
+    display: block;
+    text-decoration: none;
+    color: rgb(143, 216, 245) !important;
+    height: 20px;
+    margin: 5px 8px;
+}
+
+.display-none {
+    display: none;
+}
+
+.carosal-container {
+    display: flex;
+    justify-content: center;
+    padding: 2vh 0 5vh 0
+}
+
+.carosal-container>div {
+    width: 95vw;
+    background-color: rgb(10, 10, 14);
+    border-radius: 10px;
+}
+
+.carosal {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 180px;
+    padding: 20px 110px;
+}
+
+.palmplate {
+    display: inline-block;
+    height: 180px;
+    margin: 20px 40px;
+    width: 180px;
+    border: 1px solid rgb(230, 135, 135);
+    background-color: rgb(44, 41, 30);
+    border-radius: 5px;
+
+}
+
+.hospital-collection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pagelet {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 270px;
+    margin: 20px;
+    border: solid 2px white;
+    background-color: rgb(44, 41, 30);
+    border-radius: 7px;
+    padding: 4px;
+}
+
+.pagelet-img {
+    background-color: cornsilk;
+    height: 55%;
+    margin: 3px;
+}
+
+.pagelet-desc {
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Login-page {
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    margin: 15vh;
+}
+.cancel{
+    color:red;
+    align-self:flex-end;
+    margin-top:10px;
+    cursor:pointer;
+}
+.Login-page-1 {
+    display: flex;
+    flex-direction: column;
+    padding:0vh 2vw 2vh 2vw;
+    border:solid 1px white;
+    width: 30vw;
+    min-width:270px;
+    border-radius:10px;
+    align-items: center;
+    background-color: rgb(32, 30, 30);
+}
+.Login-page-1>input{
+    width:98%;
+    margin:1vh 0;
+    padding:7px 5px;
+    outline:none;
+    font-size:14px;
+   border:none;
+    border-radius:6px;
+}
+.button{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:100px;
+    border-radius:15px;
+    margin-top:15px;
+}
+.Login-page-title{
+    align-self:flex-start;
+    font-size:28px;
+    color:rgb(31, 211, 211)
+}
+.password-forgot{
+    align-self:flex-end;
+    color:rgb(169, 199, 255);
+    cursor: pointer;
+}
+.Signup-page{
+    display:flex;
+    width:60vw;
+    flex-direction:column;
+    margin:10vh auto;
+    min-width:270px;
+    padding:0 10px 10px 10px;
+    border:solid 1px white;
+    border-radius: 5px;
+    background-color:rgb(22, 1, 32)
+}
+.Signup-1{
+    display:flex;
+    flex-direction:row;
+    align-items:flex-end;
+    flex-wrap:wrap;
+}
+.Signup-1-1{
+    flex: 1 1 110px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    margin:10px;
+}
+.Signup-1-1>div{
+    align-self:flex-start;
+}
+.Signup-1-1>input ,.Signup-1-1>select{
+    width:90%;
+    min-width:180px;
+    margin:1vh 0;
+    padding:7px 5px;
+    outline:none;
+    font-size:14px;
+    border:none;
+    border-radius:6px;
+}
+.Signup-page-title{
+    font-size:28px;
+    margin-left:15px;
+    color:rgb(0, 225, 255);
+}
+.Signup-button{
+    align-self:center;
+    margin-bottom:20px;
 }
